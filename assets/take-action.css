@@ -197,8 +197,9 @@ a:visited {
 Take Action Styling
 =========================
 */
+
 .opening {
-    margin-top: 4rem;
+    margin: 4rem 0;
 }
 .opening img {
     float: left;
@@ -210,11 +211,12 @@ Take Action Styling
 
 /* Air Pollution */
 .air-pollution {
-    margin-bottom: 5rem;
+    margin: 5rem 0;
 }
 
 .air-pollution .box-container {
     display: flex;
+    margin: 2rem 0;
 }
 
 .air-pollution h3, h4 {
@@ -297,13 +299,15 @@ Take Action Styling
 
 /* Toxic chemicals */
 
+
+
 .toxic-chemicals .box-container .box {
     background-color: cornsilk;
     border: 2px solid black;
     border-radius: 5px;
     padding: 1rem 2rem;
     width: 100%;
-    margin: 1rem 0;
+    margin: 3rem 0;
 }
 
 .toxic-chemicals .box-container .box h3 {
