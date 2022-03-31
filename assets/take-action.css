@@ -192,27 +192,13 @@ a:visited {
     background-color: cornsilk;
 }
 
-/*footer*/
-
-footer {
-    width: 100%;
-    border-top: 5px solid black;
-    margin-top: 50px;
-}
-
-footer p {
-    font-size: 1rem;
-    text-align: center;
-}
-
 /*
 =========================
 Take Action Styling
 =========================
 */
-
 .opening {
-    margin: 4rem 0;
+    margin-top: 4rem;
 }
 .opening img {
     float: left;
@@ -224,12 +210,11 @@ Take Action Styling
 
 /* Air Pollution */
 .air-pollution {
-    margin: 5rem 0;
+    margin-bottom: 5rem;
 }
 
 .air-pollution .box-container {
     display: flex;
-    margin: 2rem 0;
 }
 
 .air-pollution h3, h4 {
@@ -253,6 +238,10 @@ Take Action Styling
 .air-pollution .box-container .box h3 {
     font-size: 1.5rem;
     text-align: center;
+}
+
+.air-pollution .box-container .box h3 a:hover {
+    color: #ff5678;
 }
 
 .air-pollution .box-container .box p {
@@ -283,6 +272,10 @@ Take Action Styling
     background-color: aliceblue;
 }
 
+.air-pollution .donate a:hover {
+    color: white;
+    background-color: #ff5678;
+}
 /* climate change */
 
 .climate-change h4 {
@@ -310,9 +303,8 @@ Take Action Styling
     color: #ff5678;
 }
 
+
 /* Toxic chemicals */
-
-
 
 .toxic-chemicals .box-container .box {
     background-color: cornsilk;
@@ -320,7 +312,7 @@ Take Action Styling
     border-radius: 5px;
     padding: 1rem 2rem;
     width: 100%;
-    margin: 3rem 0;
+    margin: 1rem 0;
 }
 
 .toxic-chemicals .box-container .box h3 {
@@ -347,6 +339,11 @@ Take Action Styling
     border-radius: 5px;
     padding: 1rem;
     margin: 1rem 0;
+}
+
+.toxic-chemicals .box-container .box a:hover {
+    background-color: #ff5678;
+    color: white;
 }
 
 .toxic-chemicals .box-container .box ul {
@@ -449,4 +446,4 @@ Basic Responsiveness
         box-sizing: border-box;
         display: inline-block;
     }
-  }
+}
