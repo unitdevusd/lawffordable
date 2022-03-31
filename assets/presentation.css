@@ -252,6 +252,12 @@ a:visited {
     width: 50%;
 }
 
+.audio-embed {
+    display: block;
+    margin: 40px auto;
+    width: 50%;
+}
+
 /* nextback nav */
 
 .nextback-nav {
