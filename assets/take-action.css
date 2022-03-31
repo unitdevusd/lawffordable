@@ -1,0 +1,433 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+=========================
+Basic Typography
+=========================
+*/
+
+h1, h2, h3, h4 {
+    font-family: 'Fredoka One', sans-serif;
+    margin: 1rem auto;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 1rem auto;
+    color: #ff5678;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin: 1rem auto;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+p + p {
+    margin-top: 2rem;
+}
+
+span{
+    font-family: 'Fredoka One', sans-serif;
+}
+
+p.caption {
+    font-size: 1rem;
+    color: darkgray;
+    line-height: 0;
+    text-align: center;
+}
+
+p.caption a {
+    color: darkslategray;
+}
+
+
+/*
+=========================
+Basic Styling
+=========================
+*/
+
+body {
+    background-color: oldlace;
+    width: 70%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+
+div.logo {
+    width: 30%;
+}
+
+/* BUTTON STYLING */
+
+a.gohome {    
+    display: block;
+    width: 20%;
+}
+
+.button{
+    font-size: 1.5rem;
+    background-color: #ff5678;
+    width: 100%;
+    margin: auto;
+    border: 5px solid black;
+    padding: 5px;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: aliceblue;
+}
+
+.list-items {
+    margin: 5px;
+}
+
+/*nav items*/
+
+.nav {
+    width: 30%;
+}
+
+.sticky-nav {
+    width: 100%;
+    margin: auto;
+}
+
+.sticky-items {
+    width: 30%;
+    margin: 2vh 1.5%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.active {
+    background-color: cornsilk;
+}
+
+.active:hover {
+    background-color: cornsilk;
+}
+
+/*
+=========================
+Take Action Styling
+=========================
+*/
+.opening {
+    margin-top: 4rem;
+}
+.opening img {
+    float: left;
+    height: 10rem;
+    width: 10rem;
+    padding-right: 1rem;
+}
+
+
+/* Air Pollution */
+.air-pollution {
+    margin-bottom: 5rem;
+}
+
+.air-pollution .box-container {
+    display: flex;
+}
+
+.air-pollution h3, h4 {
+    text-align: center;
+}
+
+.air-pollution h3 {
+    font-size: 1.9rem;
+}
+
+.air-pollution .box-container .box {
+    align-items: center;
+    width: 33%;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: cornsilk;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.air-pollution .box-container .box h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.air-pollution .box-container .box p {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+.air-pollution .box-container .donate {
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.air-pollution .donate h3 {
+    font-size: 1.9rem;
+}
+
+.air-pollution .donate p {
+    font-size: 1.5rem;
+}
+
+.air-pollution .donate a {
+    padding: 1rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+/* climate change */
+
+.climate-change h4 {
+    text-align: center;
+}
+
+.climate-change .box-container .box {
+    border: 2px solid black;
+    padding: 1rem 3rem;
+    margin: 3rem 0;
+    background-color: aliceblue;
+}
+
+.climate-change .box-container .box h5 {
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+
+.climate-change .box-container .box p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.climate-change .box-container .box a {
+    color: #ff5678;
+}
+
+/* Toxic chemicals */
+
+.toxic-chemicals .box-container .box {
+    background-color: cornsilk;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.toxic-chemicals .box-container .box h3 {
+    text-align: center;
+}
+
+.toxic-chemicals .box-container .box h5 {
+    font-size: 1.2rem;
+}
+
+.toxic-chemicals .box-container .box p {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    padding-top: .5rem;
+    padding-bottom: 1.5rem;
+}
+
+.toxic-chemicals .box-container .box a {
+    color: #ff5678;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.toxic-chemicals .box-container .box ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.toxic-chemicals .box-container .box ul li {
+    align-items: center;
+}
+
+.toxic-chemicals .box-container .box .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 10rem;
+}
+
+.toxic-chemicals .box-container .box .bottom li {
+    width: 50%;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+/*
+=========================
+Basic Responsiveness
+=========================
+*/
+
+
+@media only screen and (max-width: 1024px) {
+    body {
+        width: 90%;
+    }
+    
+    html {
+        font-size: 12px;
+    }
+
+    /*demo*/
+    .demo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .demo-img {
+        width: 70%;
+    }
+
+    .demo-hero {
+        width: 100%;
+    }
+
+    p.caption {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    body {
+        width: 90%;
+    }
+
+    html {
+        font-size: 8px;
+    }
+
+    div.logo {
+        width: 60%;
+    }
+
+    a.gohome {    
+        width: 30%;
+    }
+
+    .button {
+        font-size: 2rem;
+    }
+
+    .demo-hero h2 {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    span {
+        font-size: 1.5rem;
+    }
+
+    .sticky-items {
+        width: 30%;
+        margin: 2vh 1.2%;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+  }
