@@ -261,7 +261,7 @@ Take Action Styling
 
 .air-pollution .donate a {
     padding: 1rem;
-    margin: 0 auto;
+    display: inline-block;
     font-size: 1.3rem;
     border: 2px solid black;
     border-radius: 5px;
@@ -323,6 +323,8 @@ Take Action Styling
 
 .toxic-chemicals .box-container .box a {
     color: #ff5678;
+    font-size: 1.3rem;
+    display: inline-block;
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
