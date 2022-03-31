@@ -74,13 +74,13 @@ Index- Basic Styling
 
 
 body {
-    background-color: cornsilk;
+    background-color: oldlace;
 }
 
 header {
-    width: 40%;
+    width: 35%;
     margin: 10px auto;
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
 
 .hero {
@@ -91,7 +91,7 @@ header {
 .hero-img {
     display: block;
     margin: 10px auto;
-    width: 50%;
+    width: 45%;
 }
 
 .tagline {
