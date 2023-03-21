@@ -61,7 +61,7 @@ h1, h2, h3, h4 {
 h1 {
     font-size: 3rem;
     margin: 1rem auto;
-    color: #ff5678;
+    color: #266382;
     text-align: center;
     width: 100%;
 }
@@ -138,7 +138,7 @@ a.gohome {
 
 .button{
     font-size: 1.5rem;
-    background-color: #ff5678;
+    background-color: #266382;
     width: 100%;
     margin: auto;
     border: 5px solid black;
@@ -254,7 +254,7 @@ Take Action Styling
 }
 
 .air-pollution .box-container .box h3 a:hover {
-    color: #ff5678;
+    color: #266382;
 }
 
 .air-pollution .box-container .box p {
@@ -287,7 +287,7 @@ Take Action Styling
 
 .air-pollution .donate a:hover {
     color: white;
-    background-color: #ff5678;
+    background-color: #266382;
 }
 /* climate change */
 
@@ -313,7 +313,7 @@ Take Action Styling
 }
 
 .climate-change .box-container .box a {
-    color: #ff5678;
+    color: #266382;
 }
 
 
@@ -344,7 +344,7 @@ Take Action Styling
 }
 
 .toxic-chemicals .box-container .box a {
-    color: #ff5678;
+    color: #266382;
     font-size: 1.3rem;
     display: inline-block;
     background-color: white;
@@ -355,7 +355,7 @@ Take Action Styling
 }
 
 .toxic-chemicals .box-container .box a:hover {
-    background-color: #ff5678;
+    background-color: #266382;
     color: white;
 }
 

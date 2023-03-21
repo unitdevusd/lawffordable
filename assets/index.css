@@ -63,6 +63,7 @@ p {
 
 span {
     font-family: 'Fredoka One', sans-serif;
+    color: white;
 }
 
 
@@ -110,7 +111,7 @@ header {
 
 .button {
     font-size: 2rem;
-    background-color: #ff5678;
+    background-color: #266382;
     width: 20%;
     margin: 20px auto;
     border: 5px solid black;
@@ -131,7 +132,7 @@ a:visited {
 }
 
 .button:hover {
-    background-color: aliceblue;
+    background-color: black;
 }
 
 /*
