@@ -165,7 +165,7 @@ a:visited {
 }
 
 .button:hover {
-    background-color: aliceblue;
+    background-color: black;
 }
 
 .list-items {
@@ -226,7 +226,7 @@ a:visited {
 }
 
 .active:hover {
-    background-color: cornsilk;
+    background-color: #266382;
 }
 
 li a:hover {

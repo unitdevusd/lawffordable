@@ -137,7 +137,7 @@ a.gohome {
 }
 
 .button{
-    font-size: 1.5rem;
+    font-size: 2rem;
     background-color: #266382;
     width: 100%;
     margin: auto;
@@ -159,7 +159,7 @@ a:visited {
 }
 
 .button:hover {
-    background-color: aliceblue;
+    background-color: black;
 }
 
 .list-items {
@@ -439,9 +439,6 @@ Basic Responsiveness
         width: 30%;
     }
 
-    .button {
-        font-size: 2rem;
-    }
 
     .demo-hero h2 {
         font-size: 3rem;
