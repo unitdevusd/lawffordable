@@ -252,7 +252,8 @@ li a:hover {
 .img-embed {
     display: block;
     margin: 40px auto;
-    width: 100%;
+    width: 50%;
+    height: 50%;
 }
 
 .video-embed {
